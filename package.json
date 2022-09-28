@@ -1,0 +1,26 @@
+{
+  "name": "@cherr0/github-package-practice",
+  "version": "1.0.1",
+  "description": "package example",
+  "author": "",
+  "dependencies": {
+    "commander": "^9.4.0"
+  },
+  "bin": {
+    "log-run": "bin/cli.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sample"
+  ],
+  "files": [
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url:": "https://github.com/cherr0/github-package-practice"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
